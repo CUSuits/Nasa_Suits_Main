@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: 98b5ec4175b3c9948906f5ba36d3e104
+  productGUID: b67b013bd93849040b2bdac224fd281a
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: NASA_SUITS
+  productName: CU_NASA_SUITS_18_19
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -166,7 +166,7 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 0
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask:
     serializedVersion: 2
     m_Bits: 238
@@ -248,15 +248,23 @@ PlayerSettings:
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Windows Store Apps
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
+  - m_BuildTarget: Standalone
+    m_Enabled: 1
+    m_Devices:
+    - Oculus
+    - OpenVR
   - m_BuildTarget: Metro
     m_Enabled: 1
     m_Devices:
-    - HoloLens
+    - WindowsMR
   m_BuildTargetEnableVuforiaSettings:
-  - m_BuildTarget: Metro
+  - m_BuildTarget: Standalone
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -553,14 +561,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: NASASUITS
+  metroPackageName: CUNASASUITS1819
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: NASA_SUITS
+  metroApplicationDescription: CU_NASA_SUITS_18_19
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -596,7 +604,7 @@ PlayerSettings:
       Proximity: False
       RemovableStorage: False
       SharedUserCertificates: False
-      SpatialPerception: False
+      SpatialPerception: True
       UserAccountInformation: False
       VideosLibrary: True
       VoipCall: False
@@ -660,8 +668,8 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: ea0746bb-fd7b-4050-bcf7-925938a2d05e
-  projectName: NASA_SUITS
+  cloudProjectId: 9ceae11a-22b2-4916-b6b0-1d938242db3d
+  projectName: CU_NASA_SUITS_18_19
   organizationId: aaayejaaaye
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
