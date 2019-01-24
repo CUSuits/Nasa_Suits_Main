@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>CU_NASA_SUITS_18_19</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\NASA_SUITS\Nasa_Suits_Main\apps\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\NASA_SUITS\Nasa_Suits_Main\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

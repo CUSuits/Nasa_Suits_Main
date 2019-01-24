@@ -11,7 +11,7 @@ namespace HoloToolkit.Unity.InputModule
     public class CanvasSpeechInputHandler : MonoBehaviour, ISpeechHandler
     {
         public Canvas CanvasComponent;
-
+        public float moveSpeed = 10f;
         [Serializable]
         public struct KeywordAndResponse
         {
@@ -112,6 +112,30 @@ namespace HoloToolkit.Unity.InputModule
         public void ShowCanvas()
         {
             CanvasComponent.enabled = true;
+        }
+        public void Left()
+        {
+            
+        }
+        public void Right()
+        {
+
+        }
+        public void Up()
+        {
+            transform.Translate(Vector3.up * Time.deltaTime, Space.World);
+        }
+        public void Down()
+        {
+
+        }
+        public void Stop()
+        {
+
+        }
+        public void Forward()
+        {
+            transform.Translate(Vector3.forward * Time.deltaTime);
         }
     }
 }
